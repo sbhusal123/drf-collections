@@ -22,7 +22,7 @@ class CreateRecipeSerializer(serializers.ModelSerializer):
         model=Recipe
         fields=('id','name','url','ingredients')
         read_only_fields=('id', 'url')
-    
+
     def create(self, validated_data):
         recipe = Recipe.objects.create(**validated_data)
         return recipe

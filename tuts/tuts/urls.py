@@ -19,5 +19,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('foods/', include('m2mserializer.urls'))
+    path('foods/', include('m2mserializer.urls')),
+
+    path('order/', include('m2msignaling.urls')),
 ]

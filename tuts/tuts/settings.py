@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'm2mserializer'
+    'm2mserializer',
+    'm2msignaling'
 ]
 
 MIDDLEWARE = [
