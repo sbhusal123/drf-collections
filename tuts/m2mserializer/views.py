@@ -1,5 +1,4 @@
-from django.shortcuts import render
-from rest_framework import generics, viewsets
+from rest_framework import generics
 from .models import Ingredient, Recipe
 from . import serializers
 
