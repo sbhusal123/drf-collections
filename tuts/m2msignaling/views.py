@@ -1,4 +1,4 @@
-from .models import OrderItem, Order
+from .models import Order
 from .serializers import  OrderReadSerializer, OrderWriteSerializer
 from rest_framework import generics
 
